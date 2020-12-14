@@ -1,0 +1,104 @@
+body {
+	font-family: Lora;
+	margin: 0;
+}
+
+/* Header */
+h1 {
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 10px;
+	font-family: EB Garamond;
+	background-color: white;
+	margin-top: 10px;
+}
+.aaraz {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-color: black;
+}
+ul {
+	margin: 10px;
+	padding: -20;
+	text-align: center;
+}
+.navbar {
+	font-size: 12px;
+	display: inline;
+	padding: 16px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.aaraz li a:hover {
+	background: #f2f2f2;
+	padding: 5px;
+	border-radius: 5px;
+}
+.aaraz a {
+	line-height: 2;
+}
+
+/* Sidebar */
+.sidebar{
+	float: right;
+	width: 20%;
+	height: 100%;
+	margin-top: 150px;
+	margin-right: 50px;
+	padding: 20px;
+}
+.sidebar p {
+	border-style: groove;
+	text-align: center;
+	padding: 10px;
+}
+.sidebar li {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin: 10px -20px;	
+}
+
+/* Article */
+.artikel {
+	margin-top: 50px;
+	width: 50%;
+	margin-left: 200px;
+	padding: 10px 0px 150px 0px;
+}
+.artikel a:hover {
+	text-decoration: underline;
+	color: #9A8B4F;
+}
+.topic {
+	padding-bottom: 10px;
+}
+h2::before {
+	border-top: 6px solid #ddd; 
+	width: 15px;
+}
+
+/* Footer */
+footer {
+	background-color: black;
+	padding: 3px 20px 30px 50px;
+	font-family: EB Garamond;
+	color: white;
+}
+.logo {
+	font-size: 35px;
+	margin-bottom: -5px;
+}
+.contact img {
+	margin-right: 30px;
+}
+
+/* Responsive */
+/* Hide sidebar when the screen is less than 600px */
+@media screen and (max-width: 982px)
+{
+	div.sidebar{
+		display: none;
+	}
+}
